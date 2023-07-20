@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+
+    <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+    <!--header section-->
+    <header>
+        
+        <i class="fas fa-shopping-basket" id="i"><a href="#" class="logo">Groco</a></i>
+
+        <div class="items" id="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Review</a>
+            <a href="#blogs">Blogs</a>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-icon"></i>
+            <i class="fas fa-shopping-cart" id="shopping-icon"></i>
+            <i class="fas fa-user" id="login-icon"></i>
+
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-outline-warning dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                menu
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <li><button class="dropdown-item" type="button"><a href="#home">Home</a></button></li>
+              <li><button class="dropdown-item" type="button"><a href="#features">Features</a></button></li>
+              <li><button class="dropdown-item" type="button"><a href="#products">Products</a></button></li>
+              <li><button class="dropdown-item" type="button"><a href="#categories">Categories</a></button></li>
+              <li><button class="dropdown-item" type="button"><a href="#review">Review</a></li>
+              <li><button class="dropdown-item" type="button"><a href="#blogs">Blogs</a></button></li>
+            </ul>
+          </div>
+
+
+        <div class="search-form">
+            <input type="text" id="search" placeholder="Search here....">
+            <label for="search" class="fas fa-search"></label>
+        </div>
+
+        
+
+        <div class="shopping">
+            <div class="box">
+                <img src="../grocery/image1.jpg" alt="watermelon">
+                <h2>Watermelon</h2><br>
+                <p class="price1">$4.99/-</p><br>
+                <p class="price1">Qty:1</p>
+                <i class="fas fa-trash trash1" id=""></i>
+            </div>
+
+            <div class="box">
+                <img src="../grocery/image2.jpg" alt="watermelon">
+                <h2>Onion</h2>
+                <p class="price2">$5.99/-</p>
+                <p class="price2">Qty:5</p>
+                <i class="fas fa-trash trash2" id=""></i>
+            </div>
+
+            <div class="box">
+                <img src="../grocery/image3.jpg" alt="watermelon">
+                <h2 class="h">Chicken</h2>
+                <p class="price3">$10.99/-</p>
+                <p class="price3">Qty:1</p>
+                <i class="fas fa-trash trash3" id=""></i>
+            </div>
+            <div class="total">Total:$22.99/-</div>
+            <button class="btn">Checkout</button>
+        </div>
+
+
+        <!--header login form-->
+        <div class="login">
+            <h1>Login Now</h1>
+            <input type="email" name="email" placeholder="Your email"><br>
+        
+            <input type="password" name="password" id="password" placeholder="Your password"><br>
+            <p>Forgot Your Password <a href="#">Click here</a></p>
+            <p>Don't Have An Account <a href="#">Create an account</a></p>
+            <button>Login Now</button>
+        </div>
+    </header>
+    
+    <!-- home section-->
+<section class="home" id="home">
+    <h1>Fresh and <span>Organics</span> Products for yours</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro error, delectus voluptatibus laboriosam dicta dolores quidem mollitia quibusdam iusto culpa tenetur ea labore commodi optio? Nostrum atque aperiam alias in.</p>
+    <button class="btn">Shop Now</button>
+</section>
+
+<!--features-->
+
+<section class="features" id="features">
+
+    <h1 class="h1">Our<span>Features</span></h1>
+            
+                <div class="box">
+                    <img src="../grocery/images4.jpg" alt="vegetables">
+                    <h2>Fresh and Organics</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                    <button type="button" class="btn btn-primary">Read More</button>
+                </div>
+                    
+                <div class="box">
+                    <img src="../grocery/images5.jpg" alt="vegetables">
+                    <h2>Free Delivery</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                    <button class="btn btn-primary">Read More</button>
+                </div>
+
+                <div class="box">
+                    <img src="../grocery/images6.jpg" alt="vegetables">
+                    <h2>Easy Payments</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                    <button class="btn btn-primary">Read More</butto>
+                </div>
+                    
+    
+    
+</section>
+
+
+
+<!--products-->
+<section class="products" id="products">
+    <h1>Our <span>Products</span></h1>
+    
+    <div class="box">
+        <img src="../grocery/orange-juicy-ripe-circle-citrus.jpg" alt="orange">
+        <h3>Fresh Orange</h3>
+        <div class="price">$4.99/ - 10.99/</div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <button>Add to Cart</button>
+    </div>
+
+
+    <div class="box">
+        <img src="../grocery/red-onion.jpg" alt="Onion">
+        <h3>Fresh Onion</h3>
+        <div class="price">$5.99/ - 10.99/</div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <button>Add to Cart</button>
+    </div>
+
+
+    <div class="box">
+        <img src="../grocery/fresh-lettuce.jpg" alt="cabbage">
+        <h3>Fresh Cabbage</h3>
+        <div class="price">$7.99/ - 15.99/</div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <button>Add to Cart</button>
+    </div>
+
+
+    <div class="box">
+        <img src="../grocery/image1.jpg" alt="orange">
+        <h3>Fresh Watermelon</h3>
+        <div class="price">$10.99/ - 14.99/</div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <button>Add to Cart</button>
+    </div>
+
+
+
+    <div class="box">
+        <img src="../grocery/fresh-background-potatoes-close-nutrition.jpg" alt="orange">
+        <h3>Fresh Potato</h3>
+        <div class="price">$4.99/ - 10.99/</div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <button>Add to Cart</button>
+    </div>
+
+
+
+    <div class="box">
+        <img src="../grocery/carrot.jpg" alt="carrot">
+        <h3>Fresh Carrot</h3>
+        <div class="price">$4.99/ - 10.99/</div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <button>Add to Cart</button>
+    </div>
+</section>
+
+
+
+<!--categories section-->
+<section class="categories" id="categories">
+    <h1>Our <span>Categories</span></h1>
+</section>
+<section class="categories1">
+<div class="box">
+    <img src="../grocery/images4.jpg" alt="vegetables">
+    <h2>Vegetables</h2>
+    <p>Upto 40% Offer</p>
+    <button>Shop Now</button>
+</div>
+
+<div class="box">
+    <img src="../grocery/pile-fresh-fruits.jpg" alt="fruits">
+    <h2>Fruits</h2>
+    <p>Upto 30% Offer</p>
+    <button>Shop Now</button>
+</div>
+
+<div class="box">
+    <img src="../grocery/eiliv-aceron-_8bnn1GqX70-unsplash.jpg" alt="fresh milk">
+    <h2>Fresh Milk</h2>
+    <p>Upto 40% Offer</p>
+    <button>Shop Now</button>
+</div>
+
+<div class="box">
+    <img src="../grocery/pexels-pixabay-361184.jpg" alt="fresh meat">
+    <h2>Fresh Meat</h2>
+    <p>Upto 30% Offer</p>
+    <button>Shop Now</button>
+</div>
+
+
+
+
+
+
+
+</section>
+
+<!--reviews section-->
+
+<section class="review" id="review">
+    <h1>Our<span>Reviews</span></h1>
+<swiper-container class="mySwiper" init="false">
+    <swiper-slide><img src="../grocery/confident-attractive-caucasian-guy-beige-pullon-smiling-broadly-while-standing-against-gray.jpg" alt="">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur non doloremque ut, quasi, quod minima rerum amet incidunt in distinctio</p>
+    <h4>Vin</h4>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    </swiper-slide>
+    
+    
+    <swiper-slide>
+        <img src="../grocery/pexels-andrea-piacquadio-948873.jpg" alt="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur non doloremque ut, quasi, quod minima rerum amet incidunt in distinctio </p>
+        <h4>Riya</h4>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </swiper-slide>
+
+
+    <swiper-slide>
+    <img src="../grocery/portrait-white-man-isolated.jpg" alt="">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur non doloremque ut, quasi, quod minima rerum amet incidunt in distinctio </p>
+    <h4>Micheal</h4>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    </swiper-slide>
+    
+    <swiper-slide>
+        <img src="../grocery/young-bearded-man-with-striped-shirt.jpg" alt="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur non doloremque ut, quasi, quod minima rerum amet incidunt in distinctio</p>
+        <h4>Paul</h4>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </swiper-slide>
+    
+    <swiper-slide>
+        <img src="../grocery/portrait-beautiful-teenage-girl-with-messy-hair-cute-smile-wearing-red-checkered-shirt.jpg" alt="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur non doloremque ut, quasi, quod minima rerum amet incidunt in distinctio</p>
+        <h4>Emili</h4>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </swiper-slide>
+    <swiper-slide>
+        <img src="../grocery/portrait-young-thinking-woman-with-some-problem-isolated.jpg" alt="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur non doloremque ut, quasi, quod minima rerum amet incidunt in distinctio</p>
+        <h4>Clar</h4>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </swiper-slide>
+    <swiper-slide>
+        <img src="../grocery/pexels-maryia-plashchynskaya-3615455.jpg" alt="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur non doloremque ut, quasi, quod minima rerum amet incidunt in distinctio</p>
+        <h4>Mariya</h4>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </swiper-slide>
+    <swiper-slide>
+        <img src="../grocery/pexels-john-paul-duhan-6322920.jpg" alt="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur non doloremque ut, quasi, quod minima rerum amet incidunt in distinctio</p>
+        <h4>Ortega</h4>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </swiper-slide>
+    <swiper-slide>
+        <img src="../grocery/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur non doloremque ut, quasi, quod minima rerum amet incidunt in distinctio</p>
+        <h4>Jenna</h4>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </swiper-slide>
+    <swiper-slide>
+        <img src="../grocery/confident-attractive-caucasian-guy-beige-pullon-smiling-broadly-while-standing-against-gray.jpg" alt="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur non doloremque ut, quasi, quod minima rerum amet incidunt in distinctio</p>
+        <h4>Joe</h4>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+    </swiper-slide>
+  </swiper-container>
+</section>
+
+
+<!--blogs section-->
+
+<section class="blogs" id="blogs">
+    <h1>Our <span>Blogs</span></h1>
+    <div class="container">
+    <div class="box">
+        <img src="../grocery/grapes-strawberries-pineapple-kiwi-apricot-banana-whole-pineapple.jpg" alt="fruits">
+         <div class="icons">
+             <p><i class="fas fa-user"></i>By user</p>
+             <p> <i class="fas fa-calendar"></i>18th Feb 2023</p>
+         </div>
+         <h3>Fresh And Organics Vegetables And Fruits</h3>
+         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, accusantium! Ipsa fugit modi assumenda perferendis</div>
+         <button>Read More</button>
+    </div>
+
+
+
+    <div class="box">
+        <img src="../grocery/assorted-mixed-fruits.jpg" alt="fruits">
+         <div class="icons">
+             <p><i class="fas fa-user"></i>By user</p>
+             <p> <i class="fas fa-calendar"></i>19th Feb 2023</p>
+         </div>
+         <h3>Fresh And Organics Vegetables And Fruits</h3>
+         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, accusantium! Ipsa fugit modi assumenda perferendis</div>
+         <button>Read More</button>
+    </div>
+
+
+
+
+
+    <div class="box">
+        <img src="../grocery/mix-fruits.jpg" alt="fruits">
+         <div class="icons">
+             <p><i class="fas fa-user"></i>By user</p>
+             <p> <i class="fas fa-calendar"></i>20th Feb 2023</p>
+         </div>
+         <h3>Fresh And Organics Vegetables And Fruits</h3>
+         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, accusantium! Ipsa fugit modi assumenda perferendis</div>
+         <button>Read More</button>
+    </div>
+</div>
+</section>
+
+
+
+
+<!--footer section-->
+<section class="footer" id="footer">
+    <div class="box">
+        <h3>Groco <i class="fas fa-shopping-basket"></i></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+
+
+
+
+    <div class="box">
+        <h3>Contact Info</h3>
+        <p><i class="fas fa-phone"></i> +123 456 789</p>
+        <p><i class="fas fa-phone"></i> + 6673 987 29812</p>
+        <p><i class="fas fa-envelope"></i>happy@gmail.com</p>
+        <p><i class="fas fa-location"></i> Mumbai,India-400004</p>
+    </div>
+
+
+
+    <div class="box">
+        <h3>Quick Links</h3>
+        <label for="fa-arrow-right"><i class="fas fa-arrow-right"></i>Home</label><br>
+        <label for="fa-arrow-right"><i class="fas fa-arrow-right"></i>Features</label><br>
+        <label for="fa-arrow-right"><i class="fas fa-arrow-right "></i>Products</label><br>
+        <label for="fa-arrow-right"><i class="fas fa-arrow-right"></i>Products</label><br>
+        <label for="fa-arrow-right"><i class="fas fa-arrow-right"></i>categories</label><br>
+        <label for="fa-arrow-right"><i class="fas fa-arrow-right"></i>Review</label><br>
+        <label for="fa-arrow-right"><i class="fas fa-arrow-right"></i>Blogs</label><br>
+    </div>
+
+
+    <div class="box">
+        <h3>News Letter</h3>
+        <p>Subscribe for Latest Updates</p>
+        <input type="text" name="Subscribe" id="Subscribe" placeholder="Search here"><br>
+        <button>Subscribe</button>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        
+</script>
+  <script>
+    const swiperEl = document.querySelector('swiper-container')
+    Object.assign(swiperEl, {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        clickable: true,
+      },
+      breakpoints: {
+        "@0.00": {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        "@0.75": {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        "@1.00": {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        "@1.50": {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      },
+    });
+
+    swiperEl.initialize();
+  </script>
+
+    <!--javascript portion-->
+    <script>
+        let searchForm = document.querySelector('.search-form');
+
+        document.querySelector('#search-icon').onclick = () =>{
+            searchForm.classList.toggle('active');
+        }
+
+        let shopping = document.querySelector('.shopping');
+
+        document.querySelector('#shopping-icon').onclick = () =>{
+            shopping.classList.toggle('active');
+        }
+
+
+        let login = document.querySelector('.login');
+
+        document.querySelector('#login-icon').onclick = () =>{
+            login.classList.toggle('active');
+        }
+
+</script>
+</body>
+</html>
