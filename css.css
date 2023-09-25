@@ -251,7 +251,7 @@ header .login.active{
     align-items: center;
     text-align:center;
     flex-direction:column;
-    background: url(../grocery/flat-lay-vegetables-frame-with-copy-space.jpg);
+    background: url(grocery/flat-lay-vegetables-frame-with-copy-space.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
